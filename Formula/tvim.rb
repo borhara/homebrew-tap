@@ -7,22 +7,22 @@ class Tvim < Formula
   on_macos do
     on_arm do
       url "https://github.com/borhara/tvim/releases/download/v1.0.0/tvim-aarch64-apple-darwin.tar.gz"
-      sha256 "923db00fefe1e476a2902c4705e654e378d1c4adc6b09bdafcd5bdf6b4cdd8e8"
+      sha256 "5f18ae865ed9981896e754d33e3effd126b37af8bdada1e2942c6bd081f67dc3"
     end
     on_intel do
       url "https://github.com/borhara/tvim/releases/download/v1.0.0/tvim-x86_64-apple-darwin.tar.gz"
-      sha256 "9adf22268efc2d43d202e0e6cada99572960329352f8d23d0483af916338b9ba"
+      sha256 "348f37a9394e3ebed9fdbde589db6a5c80921044aaca1ed1b484f52d7e79a539"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/borhara/tvim/releases/download/v1.0.0/tvim-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "0a5f1a776be48caf6f0a91782e5e45baac85eaa8c4f146519f66685dcc9b50d0"
+      sha256 "0e6127d7dfea63529dec8cd5e19de3abf92f47b7ca2256fe563f5992d72bdae1"
     end
     on_intel do
       url "https://github.com/borhara/tvim/releases/download/v1.0.0/tvim-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "799d6d5c5dfc7df972155917d0ca8e7456887640bc184a6f4c9f65c33ce5b0ae"
+      sha256 "b55e53c40535bbc6859a89f361c8f00518659ec65339278bfe3742871330c9df"
     end
   end
 
