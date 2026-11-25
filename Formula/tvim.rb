@@ -1,28 +1,28 @@
 class Tvim < Formula
   desc "Vim-like terminal text editor written in Rust"
   homepage "https://github.com/borhara/tvim"
-  version "1.3.0"
+  version "1.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/borhara/tvim/releases/download/v1.3.0/tvim-aarch64-apple-darwin.tar.gz"
-      sha256 "4117bf834ae0cac82d947890eda1c4c0fff98480d9261884cf938ed3dc88e666"
+      url "https://github.com/borhara/tvim/releases/download/v1.4.0/tvim-aarch64-apple-darwin.tar.gz"
+      sha256 "1c6a580a5cb16e0facfa07a7d64927da404109114e5d22efb9b14b247aaaf84a"
     end
     on_intel do
-      url "https://github.com/borhara/tvim/releases/download/v1.3.0/tvim-x86_64-apple-darwin.tar.gz"
-      sha256 "688db2df7b480c98f8cab8ea76d9188fe74fdb3ed69419c1b3b44a59bdcb3b8b"
+      url "https://github.com/borhara/tvim/releases/download/v1.4.0/tvim-x86_64-apple-darwin.tar.gz"
+      sha256 "a4be089d171de4bb828b5632459a525db8f935f60e55fff5bef43e79f2690125"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/borhara/tvim/releases/download/v1.3.0/tvim-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "249ee6a54eb1ef31dd4b5b59c60ce031930237c4a719f92515dab587729926f4"
+      url "https://github.com/borhara/tvim/releases/download/v1.4.0/tvim-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "6dee584f8d2cb4cc50cdeeb6760a500b50403531ba2bacf619fa9233ebcf2ee4"
     end
     on_intel do
-      url "https://github.com/borhara/tvim/releases/download/v1.3.0/tvim-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f34b3175f5b32f5d79d1da67e54a07671ecc1ae310e0f6b75a7b5b987e7289d1"
+      url "https://github.com/borhara/tvim/releases/download/v1.4.0/tvim-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "cae9be70831fd6df9f908b00ebe23ee8c15fa56f56459a04eb7f9b74cea27387"
     end
   end
 
